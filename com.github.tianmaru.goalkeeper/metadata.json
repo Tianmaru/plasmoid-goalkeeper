@@ -1,0 +1,28 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "bjarne.hiller@gmail.com",
+                "Name": "Bjarne Hiller"
+            }
+        ],
+        "Category": "Utilities",
+        "Description": "Help your zoomer brain to stay on track",
+        "Icon": "preferences-system-time",
+        "Id": "com.github.tianmaru.goalkeeper",
+        "License": "GPL-2.0+",
+        "Name": "GoalKeeper",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/tianmaru/goalkeeper-plasmoid"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time",
+        "org.kde.plasma.date"
+    ]
+}

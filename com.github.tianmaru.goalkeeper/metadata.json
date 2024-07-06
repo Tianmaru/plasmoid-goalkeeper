@@ -7,7 +7,7 @@
             }
         ],
         "Category": "Utilities",
-        "Description": "Help your zoomer brain to stay on track",
+        "Description": "Help your zoomer brain stay on track",
         "Icon": "preferences-system-time",
         "Id": "com.github.tianmaru.goalkeeper",
         "License": "GPL-2.0+",

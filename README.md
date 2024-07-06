@@ -1,6 +1,6 @@
 # GoalKeeper Plasmoid
 
-> Help your zoomer brain to stay on track.
+> Help your zoomer brain stay on track.
 
 GoalKeeper is a plasmoid plugin for KDE Plasma 5.
 

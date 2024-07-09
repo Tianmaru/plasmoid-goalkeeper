@@ -5,36 +5,27 @@
  *
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
+
 import QtQuick 2.0
 import QtQuick.Layouts 1.1
 
 import org.kde.plasma.plasmoid 2.0
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.extras 2.0 as PlasmaExtras
-import org.kde.plasma.workspace.calendar 2.0 as PlasmaCalendar
+// import org.kde.plasma.workspace.calendar 2.0 as PlasmaCalendar
 
 Item {
     id: root
-
-    readonly property date currentDateTime: dataSource.data.Local ? dataSource.data.Local.DateTime : new Date()
 
     width: PlasmaCore.Units.gridUnit * 10
     height: PlasmaCore.Units.gridUnit * 4
 
     Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
 
-    Plasmoid.toolTipMainText: Qt.formatTime(currentDateTime)
-    Plasmoid.toolTipSubText: Qt.formatDate(currentDateTime, Qt.locale().dateFormat(Locale.LongFormat))
+    // Plasmoid.toolTipMainText: "tooltip main"
+    // Plasmoid.toolTipSubText: "tooltip sub"
 
     Plasmoid.backgroundHints: PlasmaCore.Types.ShadowBackground | PlasmaCore.Types.ConfigurableBackground
-
-    PlasmaCore.DataSource {
-        id: dataSource
-        engine: "time"
-        connectedSources: ["Local"]
-        interval: 60000
-        intervalAlignment: PlasmaCore.Types.AlignToMinute
-    }
 
     Plasmoid.compactRepresentation: GoalKeeper { }
 

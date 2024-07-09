@@ -9,9 +9,6 @@
     <entry name="goal" type="String">
       <default>Goal</default>
     </entry>
-    <entry name="fuzzyness" type="Int">
-      <default>1</default>
-    </entry>
     <entry name="boldText" type="Bool">
         <default>false</default>
     </entry>

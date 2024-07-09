@@ -20,9 +20,5 @@
     },
     "X-KDE-ParentApp": "",
     "X-Plasma-API": "declarativeappletscript",
-    "X-Plasma-MainScript": "ui/main.qml",
-    "X-Plasma-Provides": [
-        "org.kde.plasma.time",
-        "org.kde.plasma.date"
-    ]
+    "X-Plasma-MainScript": "ui/main.qml"
 }
